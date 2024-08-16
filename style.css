@@ -1,5 +1,22 @@
-
-
+*{
+    margin: 0 0 ;
+    padding: 0 0;
+}
+.header{
+    display: flex;
+}
+.header-top{
+    display: flex;
+}
+.header-body{
+    display: flex;
+}
+.hb-left{
+    display: flex;
+}
+.hb-right{
+    display: flex;
+}
 
 
 
