@@ -1,5 +1,5 @@
 *{
-    margin: 0 0 ;
+    margin: 0 0;
     padding: 0 0;
     font-family:"roboto";
 }
@@ -18,7 +18,7 @@ ul{
 }
 .header{
     background-color: #1f2937;
-    margin:24px;
+    margin:10px;
     padding: 10px;
 }
 .header-logo{
@@ -32,13 +32,38 @@ a{
 }
 .header-body{
     display:flex;
+    justify-content: space-between;
+    margin: 120px 0 0 0 ;
 }
 .hb-left{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 .hb-right{
     display: flex;
+    justify-content: center;
+}
+.title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+p{
+    font-size: 18px;
+    color:#e5e7eb;
+    margin: 24px 0 0 5px;
+}
+button{
+    background-color: #3882f6;
+    width: 30%;
+    padding: 5px;
+    color: #e5e7eb;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 24px 0 0 5px;
+    border-style: hidden;
 }
 /*
 .header-body{
