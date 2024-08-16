@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+/* 
+-----INITIAL ATTEMPT -----
 body{
     text-align: center;
 }
@@ -13,7 +24,7 @@ img{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /*might need to add id's to html and create id css arguments for background */
+    -------might need to add id's to html and create id css arguments for background --------
 
 }
 li{
@@ -21,7 +32,7 @@ li{
     margin: 10px;
     font-size: 18px;
     color:#e5e7eb
-/* removes bullet points from list items */
+---------- removes bullet points from list items ---------
 }
 .list{
     display: flex;
