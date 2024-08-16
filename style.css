@@ -3,12 +3,17 @@
     padding: 0 0;
     font-family:"roboto";
 }
-.header{
-    display: flex;
-}
 .header-top{
     display: flex;
+    justify-content: space-between;
 }
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 5px;
+    
+}
+/*
 .header-body{
     display: flex;
 }
