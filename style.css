@@ -65,6 +65,21 @@ button{
     margin: 24px 0 0 5px;
     border-style: hidden;
 }
+/* Section two */
+.section-two{
+    text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 52px
+}
+.content{
+    max-width: 200px;
+}
+/* NEXT STEP ADD FONT STYLES AND BORDER RADIUS */
+
+
 /*
 .header-body{
     display: flex;
