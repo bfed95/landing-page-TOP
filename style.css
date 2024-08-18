@@ -76,7 +76,7 @@ button{
 .images{
     display: flex;
     justify-content: space-evenly;
-    gap: 52px;
+    margin: 50px 10px 50px 10px;
     flex-wrap: wrap;
 }
 .content{
