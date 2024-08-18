@@ -93,7 +93,23 @@ button{
     color: #1f2937;
     margin: 24px;
 }
-/* NEXT STEP ADD FONT STYLES AND BORDER RADIUS */
+
+/* Section-Three */
+.section-three{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    max-width: 100%;
+    border: #1f2937 solid 5px;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: red solid 5px;
+    
+}
 
 
 /*
