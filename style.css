@@ -131,27 +131,29 @@ button{
 .section-four{
     display: flex;
     flex-flow: row wrap;
-    width: 80%;
+    width: 75%;
     border: red solid 5px;
     background-color: #3882f6;
-    margin: 250px 100px 100px 100px;
+    margin: 150px 150px 100px 150px;
     border-radius: 10px 10px 10px 10px;
+    justify-content: space-around;
+    color: #e5e7eb;
+    padding: 50px 50px 50px 50px;
 }
 .sf-left{
     display: flex;
     border: solid rgb(68, 202, 20) 5px;
+    justify-content:  ;
 
 }
 .sf-right{
     display: flex;
     background-color: #3882f6;
     border: black solid 5px;
-    
 }
-.sf-right button{
-    width: 100px;
-    height: 25px;
-    align-self: center;
+.section-four button{
+    border-radius: 10px 10px 10px 10px;
+    border-style: #e5e7eb solid 3px;
 }
 
 
