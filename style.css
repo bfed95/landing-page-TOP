@@ -132,9 +132,9 @@ button{
     display: flex;
     flex-flow: row wrap;
     width: 75%;
-    border: red solid 5px;
+    /*border: red solid 5px;*/
     background-color: #3882f6;
-    margin: 150px 150px 100px 150px;
+    margin: 150px 200px 100px 150px;
     border-radius: 10px 10px 10px 10px;
     justify-content: space-around;
     color: #e5e7eb;
@@ -142,16 +142,21 @@ button{
 }
 .sf-left{
     display: flex;
-    border: solid rgb(68, 202, 20) 5px;
+    /*border: solid rgb(68, 202, 20) 5px;*/
 }
 .sf-right{
     display: flex;
     background-color: #3882f6;
-    border: black solid 5px;
+    /*border: black solid 5px;*/
 }
-.section-four button{
+.sf-right button{
     border-radius: 10px 10px 10px 10px;
-    border-style: #e5e7eb solid 3px;
+    border-style: #e5e7eb solid 12px;
+}
+.CTA{
+    background-color: #e5e7eb00;
+    width: 75px;
+    border: solid #e5e7eb 3px;
 }
 
 
