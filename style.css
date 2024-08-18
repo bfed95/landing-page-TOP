@@ -127,6 +127,32 @@ button{
     color: #1f2937;
 
 }
+/* Section-Four */
+.section-four{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    border: red solid 5px;
+    background-color: #3882f6;
+    margin: 250px 100px 100px 100px;
+    border-radius: 10px 10px 10px 10px;
+}
+.sf-left{
+    display: flex;
+    border: solid rgb(68, 202, 20) 5px;
+
+}
+.sf-right{
+    display: flex;
+    background-color: #3882f6;
+    border: black solid 5px;
+    
+}
+.sf-right button{
+    width: 100px;
+    height: 25px;
+    align-self: center;
+}
 
 
 
